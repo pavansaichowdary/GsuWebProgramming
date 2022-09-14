@@ -1,0 +1,212 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: cursive;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg.jpg);
+    height: 2000px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main-nav
+{
+    float:right;
+    list-style: none;
+    margin-top: 40px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color:white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    
+}
+
+.head{
+    text-align: center;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;    
+}
+.main-nav li a:hover
+{
+    border: 1px solid white;
+    font-size: larger;
+    font-weight: bold;
+    color: red;
+    width: auto;
+}
+
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.hero
+{
+    position: absolute;
+    width:1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    
+}
+.avatar:hover{
+    width: 320px;
+    height: 320px;
+}
+h1
+{
+    color: white;
+    text-transform:inherit;
+    font-size: 30px;
+    font-family:cursive;
+    margin-top: 25px;
+}
+table {
+    width: 30%;
+}
+.Assignments{
+    color: white;
+    height: 50px;
+    text-transform:inherit;
+    font-size: 18px;
+    font-family:cursive;
+}
+.otherwebsites{
+    color: white;
+    height: 50px;
+    text-transform:inherit;
+    font-size: 18px;
+    font-family:cursive;
+}
+tr:nth-child(even) {
+    text-align: center;
+    text-transform:inherit;
+    font-size: 20px;
+    font-family:cursive;
+    background-color: firebrick;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+}
+tr:nth-child(odd) {
+    text-align: center;
+    text-transform:inherit;
+    font-size: 20px;
+    font-family:cursive;
+    background-color: white;
+    color: rgb(64, 37, 37);
+    text-decoration: none;
+    margin-right: 5px;
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;   
+    color: black; 
+}
+
+.btn-one:hover
+{
+    font-family: cursive;
+    background-color:lightgray; 
+    color: black;
+    font-size: larger;
+}
+.info{
+    text-transform:inherit;
+    font-size: 20px;
+    font-family:cursive;
+    color: white;
+    text-decoration: none;
+}
+
+.assignmentURL{
+    text-decoration: none;
+    color: black;
+}
+.assignmentURL:hover{
+    color:blue;
+    font-size: larger;
+}
+
+
+.assignmentURL2{
+    text-decoration: none;
+    color: white;
+}
+.assignmentURL2:hover{
+    color:blue;
+    font-size: larger;
+}
+
+.listlink:hover, .listlink:visited, .listlink:link, .listlink:active
+{
+    text-decoration: none;
+    color:inherit
+}
+.listlink:hover{
+    font-size: larger;
+    color: blue;
+}
+
+
+ul{
+    display: table;
+    margin: 0 auto;
+    
+}
+ul.list1, ul.list2 {
+    list-style-position: outside;
+}
+
+h4.listheading{
+    color: yellow;
+}
+.DivHeading{
+    color: yellow;
+    text-transform:inherit;
+    font-size: 20px;
+    font-family:cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
